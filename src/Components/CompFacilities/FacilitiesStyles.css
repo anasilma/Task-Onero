@@ -1,41 +1,32 @@
-#Content-Tiga {
-    padding: 120px 0 80px 0;
-
-
-
-    
+#first {
+    padding: 150px 10% 80px 10%;
 }
 
-.list-fasilitas {
+.fasilitas {
     list-style: none;
 }
 
-li {
-    font-size: 24px;
-    padding: 10px 0 0 0;
+.list-fasilitas {
+    font-size: 20px;
 }
 
-img {
-    display: inline;
-    margin: 0 20px 12px 0;
-}
-
-h6 {
+.swimming {
+    font-size: 28px;
     display: inline-flex;
-    padding: 1px 0 1px 0;
-    font-size: 36px;
-    font-weight: 100;
 }
 
-.title {
-    padding: 40px 0 0 10px;
-
-}
-
-
-h5 {
-    font-size: 40px;
+.enjoy {
+    font-size: 35px;
     font-weight: 400;
-    margin: 0 0 29px 0;
     color: #4A494E;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.more {
+    margin-left: 40px;
+    padding-right: 10px;
+    margin-top: 20px;
+    display: inline-flex;
+    color: #758AAB;
 }

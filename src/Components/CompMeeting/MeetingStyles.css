@@ -1,0 +1,35 @@
+#meeting {
+    padding: 80px 0 20px 0;
+
+}
+
+.content-meeting {
+    background: url(https://res.cloudinary.com/lycoris/image/upload/v1556373224/asset/meeting_2x_eyprks.png) ;
+    background-size: cover;
+    height: 739px;
+    width: auto;
+}
+
+.container {
+    padding: 300px 80px 60px 80px;
+    text-align: center;
+    color: #ffff;
+
+}
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h4 {
+    margin: 40px 0 20px 0;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    margin: 48px 0 0 0;
+}

@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import './RoomsStyles.css'
+import {Row, Col, Container} from 'react-bootstrap'
 
 class AppRooms extends Component {
     render() {
         return (
-            <section id="call-to-action">
-                <div class="container wow fadeIn">
-                    <div class="row">
-                        <div class="col-lg-9 text-center text-lg-left">
-                        <h2 class="cta-title">Discover Our Rooms</h2>
-                        <p class="cta-text">Lorem impsum</p>
-                        </div>
-                        <div class="col-lg-3 cta-btn-container text-center">
-                        <a class="cta-btn align-middle">Junior Suite</a>
-                        </div>
-                    </div>
-                </div>
+            <section id="first-section">
+                <Container>
+                <Row>
+    <Col >
+    <h2 className='col-satu'>Discover Our Rooms</h2>
+    <p className='p-satu'>See all rooms</p>
+    </Col >
+    <Col xs={6} md={4}>
+    <p className='col-tiga'>See Details</p>
+    <p className='col-dua'>Junior Suit</p> 
+    </Col>
+  </Row>
+  </Container>       
             </section>
         );
     }

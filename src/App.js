@@ -6,6 +6,8 @@ import AppRooms from './Components/CompRooms/AppRooms';
 import AppFacilities from './Components/CompFacilities/AppFacilities';
 import AppDinning from './Components/CompDinning/AppDinning';
 import AppOffers from './Components/CompOffers/AppOffers';
+import AppMeeting from './Components/CompMeeting/AppMeeting';
+import AppFooter from './Components/CompFooter/AppFooter';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
     <AppRooms/>
     <AppFacilities/>
     <AppDinning/>
+    {/* <AppMeeting/>
     <AppOffers/>
+    <AppFooter/> */}
     </div>
   );
 }

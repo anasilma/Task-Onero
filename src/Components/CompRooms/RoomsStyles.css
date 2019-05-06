@@ -1,35 +1,24 @@
-#call-to-action {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://res.cloudinary.com/lycoris/image/upload/v1556246837/asset/4_2x_sztj2c.png) fixed center center;
+#first-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Assets/img/4.jpg') center;
     background-size: cover;
-    padding: 600px 0 80px 0;
-
-   
+    width: 100%;
+    height: auto;
   }
 
-  .col-lg-9 {
-    bottom: 1px;
-}
-  
-  #call-to-action .cta-title {
-    color: #fff;
-    font-size: 40px;
-    font-weight: 400;
-  }
-  
-  #call-to-action .cta-text {
-    color: #fff;
+.col-satu{
+    text-align: left; 
+    padding-top: 100px;
 }
 
-
-#call-to-action .cta-btn.container {
-    position: fixed;
-    height: 340px;
-    width: 346px auto;
+.p-satu{
+    text-align: left;
 }
 
+.col-dua{
+    font-size: 80px;
+    text-align: right; 
+}
 
-
-#call-to-action .cta-btn {
-    color: #fff;
-    font-size: 63px;
+.col-tiga{
+    text-align-last: right
 }

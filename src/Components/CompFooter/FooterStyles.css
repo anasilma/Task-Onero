@@ -1,0 +1,90 @@
+#footer-body {
+    padding: 20px 0 0 0;
+    background: #758AAB;
+
+
+}
+
+/* .content-footer {
+    // background: url(https://res.cloudinary.com/lycoris/image/upload/v1556396244/asset/Asset_1_2x_xuokup.png) no-repeat center;
+    // background-size: cover;
+    // height: 604px;
+   
+
+   
+} */
+
+.logo-web {
+    margin: 56px 0 0 0;
+    display: flex;
+}
+
+.container-footer-dua {
+
+    justify-content: end;
+    align-content: flex-end;
+
+  
+}
+
+.deskripsi-footer {
+    margin: 47px 0 16px 0;
+    color: #ffff;
+}
+
+.text-bawah {
+    color: #ffff;
+}
+
+.see-location {
+    margin: 24px 0 48px 0;
+}
+
+.logo-bg {
+    position:absolute;
+}
+
+.maap {
+    margin: 80px 0 0 0;
+    display: flex;
+}
+
+.line {
+    margin: 34px 0 0 0;
+    display: flex;
+}
+
+.List-Nav {
+    margin: 32px 0 0 0;
+    list-style: none;
+    color: #ffff;
+
+
+}
+
+li {
+    margin: 16px 0 0 0;
+
+   
+}
+
+h6 {
+    font-weight: 100;
+}
+
+
+#footer {
+    background: #51688B;
+    color: #ffff;
+    padding: 20px 0;
+    font-weight: 200;
+
+    
+    }
+
+    .sosial-media {
+        text-align: end;
+    }
+        img {
+            margin: 0 16px 0 0;
+        }

@@ -1,27 +1,15 @@
-#dining {
+#tabs {
     padding: 80px 40px 80px 40px;
     background: #EFE8DD;
-
-
-   
     }
 
 .content-dining {
-    background: url(https://res.cloudinary.com/lycoris/image/upload/v1556313943/asset/resto-lululala-1400x550_2x_bjtjc9.png) no-repeat center ;
+    background: url('../../Assets//img/14.jpg') no-repeat center ;
     background-size: cover;
     height: 695px;
 }
 
-.menu-bar-dining {
-    margin: 34px 0 33px 0;
-    list-style: none;
-    display: flex;
 
-   
-}
-li {
-    margin: 0 27px 0 0;
-}
 
 
 .img-dining-bawah {
@@ -42,10 +30,43 @@ li {
     bottom: 20px;
     position: relative;
     top: 210px;
-    right: 40px;
-
-
-
-        
+ 
 
     }
+
+    .body-dining {
+        padding: 43px 29px 20px 32px;
+
+    }
+
+    #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: #0062cc;
+        background-color: transparent;
+        border-color: transparent transparent #f3f3f3;
+        border-bottom: 1px solid !important;
+    
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+     
+    }
+    #tabs .nav-link:hover {
+        border: none;
+    }
+
+    #tabs .nav-tabs{
+        border-bottom: transparent;
+    }
+
+    .title-dining{
+        text-align: center;
+    }
+
+

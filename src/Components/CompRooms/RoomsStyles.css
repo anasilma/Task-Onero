@@ -1,0 +1,35 @@
+#call-to-action {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://res.cloudinary.com/lycoris/image/upload/v1556246837/asset/4_2x_sztj2c.png) fixed center center;
+    background-size: cover;
+    padding: 600px 0 80px 0;
+
+   
+  }
+
+  .col-lg-9 {
+    bottom: 1px;
+}
+  
+  #call-to-action .cta-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+  #call-to-action .cta-text {
+    color: #fff;
+}
+
+
+#call-to-action .cta-btn.container {
+    position: fixed;
+    height: 340px;
+    width: 346px auto;
+}
+
+
+
+#call-to-action .cta-btn {
+    color: #fff;
+    font-size: 63px;
+}

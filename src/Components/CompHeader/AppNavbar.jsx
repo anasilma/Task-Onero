@@ -11,7 +11,7 @@ class AppNavbar extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="tranparant" expand="lg" variant='dark'>
+        <Navbar bg="tranparant" expand="lg" variant='dark' >
           <Navbar.Brand href="#home">
           <img
         src= { Logo }
@@ -32,10 +32,11 @@ class AppNavbar extends Component {
               <Nav.Link href="#link" style={{ color: "white" }}>MEETING&EVENTS</Nav.Link>
             </Nav>
            
-              <Button variant="outline-success">RESERVE</Button>
+              <Button variant="outline-light">RESERVE</Button>
            
           </Navbar.Collapse>
         </Navbar>
+      
       </div>
     );
   }

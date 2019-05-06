@@ -1,0 +1,48 @@
+#news {
+    padding: 80px 0 80px 0;
+}
+.box {
+    position: absolute;
+    color: #ffff;
+    top: 52px;
+    left: 49px;
+
+
+}
+#data {
+    padding: 10px 70px 10px 70px;
+    margin: 137px 0 0 0;
+}
+#button {
+    display: flex;
+    padding: 7px 30px 7px 30px;
+    margin: 48px 165px 0 215px;
+    background-color: #EFE8DD;
+    border: none;
+    border-radius: 2px;
+}
+
+.title {
+    padding: 40px 30px 0 0;
+
+}
+
+
+h3 {
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 29px 0;
+    color: #4A494E;
+}
+h6 {
+    font-weight: 100;
+}
+
+
+.title-deskripsi-dua {
+    margin-top: 22px;
+}
+
+.sub-title-dua {
+    margin-top: 30px;
+}

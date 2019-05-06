@@ -1,33 +1,28 @@
 #footer-body {
-    padding: 20px 0 0 0;
     background: #758AAB;
-
-
 }
 
-/* .content-footer {
-    // background: url(https://res.cloudinary.com/lycoris/image/upload/v1556396244/asset/Asset_1_2x_xuokup.png) no-repeat center;
-    // background-size: cover;
-    // height: 604px;
-   
-
-   
-} */
-
-.logo-web {
+.logo-footer {
     margin: 56px 0 0 0;
     display: flex;
 }
 
-.container-footer-dua {
+.container-footer-first {
 
-    justify-content: end;
-    align-content: flex-end;
-
+    padding-left: 80px;
+    margin-top: 56px;
   
 }
 
-.deskripsi-footer {
+.container-footer-second {
+    justify-content: end;
+    align-content: flex-end;
+    padding-left: 50px;
+    padding-right: 100px;
+  
+}
+
+.text-footer {
     margin: 47px 0 16px 0;
     color: #ffff;
 }
@@ -42,11 +37,13 @@
 
 .logo-bg {
     position:absolute;
+    height:80%;
 }
 
-.maap {
-    margin: 80px 0 0 0;
+.maps {
+    margin: 10px 0 0 0;
     display: flex;
+    height:230px;
 }
 
 .line {
@@ -54,37 +51,30 @@
     display: flex;
 }
 
-.List-Nav {
-    margin: 32px 0 0 0;
-    list-style: none;
+.list-footers {
+    margin-top: 30px;
     color: #ffff;
 
-
 }
 
-li {
-    margin: 16px 0 0 0;
-
-   
-}
 
 h6 {
     font-weight: 100;
+    padding-top: 10px;
 }
 
 
 #footer {
     background: #51688B;
     color: #ffff;
-    padding: 20px 0;
     font-weight: 200;
-
-    
+    padding: 10px 30px 10px 60px;
     }
 
-    .sosial-media {
-        text-align: end;
-    }
-        img {
-            margin: 0 16px 0 0;
-        }
+.sosial-media {
+    text-align: end;
+}
+
+img {
+    margin: 0 16px 0 0;
+}

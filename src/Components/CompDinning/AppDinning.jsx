@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./DinningStyles.css";
-import { Tab, Tabs, Row, Col, Container } from "react-bootstrap";
-import lululala from '../../Assets/img/logo-lulu-lala.png'
-import more from '../../Assets/img/Group24.png'
+import { Tab, Tabs, Row, Col } from "react-bootstrap";
+import lululala from "../../Assets/img/logo-lulu-lala.png";
+import more from "../../Assets/img/Group24.png";
 
 class AppDinning extends Component {
   constructor(props, context) {
@@ -15,7 +15,6 @@ class AppDinning extends Component {
     return (
       <section id="tabs" class="project-tab">
         <div className="content-dining">
-        
           <div className="dining-text">
             <div className="body-dining">
               <div class="title-dining">
@@ -64,20 +63,21 @@ class AppDinning extends Component {
                 </Tab>
               </Tabs>
             </div>
-            
-  <Row className='row-dining'>
-    <Col>
-    <img className="img-dining" src={lululala} height="75px" alt="" />
-    </Col>
-    <Col>
-    <p className='see-more'>
-        See More
-    </p>
-    <img  src={more} height="25px" alt="" />
 
-    </Col>
-  </Row>
-
+            <Row className="row-dining">
+              <Col>
+                <img
+                  className="img-dining"
+                  src={lululala}
+                  height="75px"
+                  alt=""
+                />
+              </Col>
+              <Col>
+                <p className="see-more">See More</p>
+                <img src={more} height="25px" alt="" />
+              </Col>
+            </Row>
           </div>
         </div>
       </section>

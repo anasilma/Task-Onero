@@ -6,11 +6,11 @@ import meeting from '../../Assets/img/arrow.png'
 class AppMeeting extends Component {
     render() {
         return (
-            <div>
+         
             <section id="meeting">
                 <div className="content-meeting">
                     <div className="container">
-                        <h1>Meeting & Even</h1>
+                        <h1>Meeting & Event</h1>
                         <h4>Celebrate in Style</h4>
                         <p>
                         We’re excited to be able to offer a vast array of venues that lend themselves perfectly to a variety of 
@@ -25,7 +25,7 @@ class AppMeeting extends Component {
                     </div>
                 </div>
             </section>
-            </div>
+        
         );
     }
 }

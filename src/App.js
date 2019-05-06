@@ -19,7 +19,7 @@ function App() {
     <AppDinning/>
     <AppMeeting/>
     <AppOffers/>
-    {/* <AppFooter/> */}
+    <AppFooter/>
     </div>
   );
 }

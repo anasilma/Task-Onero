@@ -1,12 +1,11 @@
-#news {
-    padding: 80px 0 80px 0;
+#offers {
+    padding: 80px 5% 80px 5%;
 }
 .box {
     position: absolute;
     color: #ffff;
     top: 52px;
     left: 49px;
-
 
 }
 #data {
@@ -27,7 +26,6 @@
 
 }
 
-
 h3 {
     font-size: 38px;
     font-weight: 400;
@@ -37,7 +35,6 @@ h3 {
 h6 {
     font-weight: 100;
 }
-
 
 .title-deskripsi-dua {
     margin-top: 22px;

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './MeetingStyles.css'
+import meeting from '../../Assets/img/arrow.png'
+
 
 class AppMeeting extends Component {
     render() {
@@ -16,7 +18,10 @@ class AppMeeting extends Component {
                         getaway or any other reason to stay or meet at a hotel venue – we’d love you to think of us.
                         Contact us on marketing@fm7hotel.com.
                         </p>
-                        <img src="https://res.cloudinary.com/lycoris/image/upload/v1556377881/asset/Group_64_2x_losnp8.png" height="24px" alt="" />
+                        <div className='more-text'>
+                        <p  className='more-arrow'>See More</p>
+                        <img class="img-right" src={meeting} height="24px" alt="" />
+                        </div>
                     </div>
                 </div>
             </section>

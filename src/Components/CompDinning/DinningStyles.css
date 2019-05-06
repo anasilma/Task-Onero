@@ -9,18 +9,6 @@
     height: 695px;
 }
 
-
-
-
-.img-dining-bawah {
-    display: flex;
-    margin: 20px 0 0 0;
-
-   
-}
-.logo-dining-kanan {
-    margin: 26px 0 0 0;
-}
 .dining-text {
     box-sizing: border-box;
     background: #ffff;
@@ -40,13 +28,9 @@
     }
 
     #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-        color: #0062cc;
-        background-color: transparent;
-        border-color: transparent transparent #f3f3f3;
-        border-bottom: 1px solid !important;
-    
-        font-size: 16px;
-        font-weight: bold;
+        border-bottom: 2px solid !important;
+        border-bottom-color: gray !important;
+        
     }
     #tabs .nav-link {
         border: 1px solid transparent;
@@ -67,6 +51,21 @@
 
     .title-dining{
         text-align: center;
+    }
+
+    .tab-dining{
+        padding-top: 20px;
+    }
+
+    .row-dining{
+        padding-top: 50px;
+    }
+
+    .see-more{
+        display: inline-flex;
+        color: #758AAB;
+        padding-top: 20px;
+        padding-left: 80px;
     }
 
 

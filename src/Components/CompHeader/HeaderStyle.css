@@ -6,6 +6,7 @@
 
 .hidden-xs {
     margin-right: 10px;
+
 }
 
 .justify-content-end {
@@ -74,3 +75,19 @@ h1 {
         background-size: cover;
         position: relative;
     }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: white !important;
+       
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: grey !important;
+        border-bottom: 1px solid !important;
+
+        border-bottom-color: gray !important;
+    }
+
+    .nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
+

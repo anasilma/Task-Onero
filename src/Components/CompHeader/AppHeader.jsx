@@ -25,7 +25,8 @@ class AppHeader extends Component {
     const currentScrollY = window.scrollY;
 
     if (currentScrollY > lastScrollY) {
-      this.setState({ slide: "-36px" });
+      this.setState({ slide: "-40px" });
+      
     } else {
       this.setState({ slide: "0px" });
     }

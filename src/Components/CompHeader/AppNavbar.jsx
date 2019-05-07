@@ -3,8 +3,10 @@ import { Navbar, Nav, Button } from "react-bootstrap";
 import "./HeaderStyle.css";
 import Logo from "../../Assets/img/logo2.png";
 
+
 class AppNavbar extends Component {
   render() {
+    
     return (
       <div>
         <Navbar bg="tranparant" expand="lg" variant="dark">
@@ -20,31 +22,31 @@ class AppNavbar extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="#facts" style={{ color: "white" }}>
+              <Nav.Link href="#facts">
                 OVERVIEW
               </Nav.Link>
-              <Nav.Link href="#first-section" style={{ color: "white" }}>
+              <Nav.Link href="#first-section">
                 ROOMS
               </Nav.Link>
-              <Nav.Link href="#first" style={{ color: "white" }}>
+              <Nav.Link href="#first">
                 FACILITIES
               </Nav.Link>
-              <Nav.Link href="#tabs" style={{ color: "white" }}>
+              <Nav.Link href="#tabs">
                 DINNING
               </Nav.Link>
-              <Nav.Link href="#offers" style={{ color: "white" }}>
+              <Nav.Link href="#offers">
                 OFFERS
               </Nav.Link>
-              <Nav.Link href="#meeting" style={{ color: "white" }}>
+              <Nav.Link href="#meeting">
                 MEETING&EVENTS
               </Nav.Link>
             </Nav>
-
             <Button variant="outline-light">RESERVE</Button>
           </Navbar.Collapse>
         </Navbar>
-      </div>
-    );
+        
+      </div> 
+    )
   }
 }
 

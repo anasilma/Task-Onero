@@ -7,7 +7,7 @@ class AppMeeting extends Component {
     render() {
         return (
          
-            <section id="meeting">
+            <section  id="meeting">
                 <div className="content-meeting">
                     <div className="container">
                         <h1>Meeting & Event</h1>

@@ -33,7 +33,7 @@ class AppOffers extends Component {
             <p>
               Rates with the same day check-in and check-out. These rates are
               available for 6 hours stays between 10am and 6pm only. Perfect for
-              a...
+              
             </p>
           </Col>
           <Col className="title" xs={6} md={3}>
@@ -52,7 +52,7 @@ class AppOffers extends Component {
             <p>
               Rates with the same day check-in and check-out. These rates are
               available for 6 hours stays between 10am and 6pm only. Perfect for
-              a...
+              
             </p>
           </Col>
         </Row>

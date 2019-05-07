@@ -95,7 +95,7 @@ class AppFooter extends Component {
           <div class="container-fluid text-center text-md-left">
             <div className="copyright">
               <div className="row">
-                <div className="col-lg-6 text-lg-left copyright-footer" fluid>
+                <div className="col-lg-6 text-lg-left copyright-footer" fluid='true'>
                   &copy; FM7 Resort Hotel {new Date().getFullYear()}. All Right
                   Reserved.
                 </div>

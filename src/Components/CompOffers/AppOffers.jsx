@@ -10,7 +10,7 @@ class AppOffers extends Component {
       <section id="offers">
         <Row>
           <Col xs={6}>
-            <img height="640px" src={news} alt="" />
+            <img height="650vw" width='480vw' src={news} alt="" />
             <div className="box">
               <div className="col-lg-8 content-left">
                 <form>

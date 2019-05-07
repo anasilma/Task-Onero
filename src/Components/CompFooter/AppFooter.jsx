@@ -14,7 +14,7 @@ class AppFooter extends Component {
   render() {
     return (
       <section id="footer-body">
-        <img class="img-responsive" className="logo-bg" src={logo} alt="" />
+        <img  className="logo-bg" src={logo} alt="" />
         <div class="container-fluid text-center text-md-left">
           <div class="row">
             <div class="col-md-6 mt-md-0 mt-3">

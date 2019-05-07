@@ -5,11 +5,12 @@ import Logo from "../../Assets/img/logo2.png";
 
 
 class AppNavbar extends Component {
+
   render() {
-    
+
     return (
       <div>
-        <Navbar bg="tranparant" expand="lg" variant="dark">
+        <Navbar bg='transparent' expand="lg" variant="dark">
           <Navbar.Brand href="#hero">
             <img
               src={Logo}

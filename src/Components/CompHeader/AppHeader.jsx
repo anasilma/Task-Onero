@@ -7,10 +7,22 @@ import AppNavbar from "./AppNavbar";
 
 class AppHeader extends Component {
   state = {
-    auth: false,
     slide: 0,
-    lastScrollY: 0
+    lastScrollY: 0,
+    color: 'transparent'
   };
+
+  listenScrollEvent = e => {
+    if (window.scrollY > 500) {
+      this.setState({color: 'rebeccapurple'})
+    } else {
+      this.setState({color: 'transparent'})
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
+  }
 
   componentWillMount() {
     window.addEventListener("scroll", this.handleScroll);
@@ -40,10 +52,11 @@ class AppHeader extends Component {
           id="header"
           style={{
             transform: `translate(0, ${this.state.slide})`,
-            transition: "transform 200ms linear"
+            transition: "transform 200ms linear",
+          backgroundColor: this.state.color
           }}
         >
-          <Nav className="justify-content-end">
+          <Nav  className="justify-content-end">
             <Nav.Item>
               <Nav.Link>
                 <img className="hidden-xs" src={Glober} alt="logo" />
